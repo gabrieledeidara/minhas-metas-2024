@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap')
  body{
-    background: linearGradient(radialGradient#D2B48C,#CD5C5C)
+    background: linearGradient(radialGradient#D2B48C,#CD5C5C);
  }
 h1 {
 font-size: 25px; 
