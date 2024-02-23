@@ -1,8 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap')
-    :root{
-    
-    }
+ :root {
+    --cinza: rgb(185, 126, 126);
+    --vermelha: rgba(236, 183, 132, 0.89);
+    --vermelha-escura: #bd7569;
+    --branca: #fff;
+    --luz: rgb(212, 207, 202);
+  }
     body{
 
 background: linear-gradient(45deg, #b68383 0%,#d6ba6cab 100%);
