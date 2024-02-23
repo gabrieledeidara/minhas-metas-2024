@@ -1,4 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
  body{
     
     background:linear-gradient(#b96c144b, #963c5ccc);
@@ -13,19 +14,23 @@ bacckground-color: black;
 h2{
 
 font-size: 25px; 
+font-family: Rubik Glitch Pop display;
 
 }
 h3{
 
     font-size: 25px;
+    font-family: Rubik Glitch Pop display;
 }
 h4{
 
     font-size: 25px;
+    font-family: Rubik Glitch Pop display;
 }
 h5{
 
     font-size: 25px;
+    font-family: Rubik Glitch Pop display;
 }
 }
 .img1{
