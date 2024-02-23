@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap')
  body{
     
     background:linear-gradient(#b96c144b, #963c5ccc);
@@ -7,30 +7,30 @@
 }
 h1 {
 font-size: 25px; 
-font-family: Dancing Script ;
+font-family: Honk&family ;
 bacckground-color: black;
 
 }
 h2{
 
 font-size: 25px; 
-font-family: Rubik Glitch Pop&display;
+font-family:Dancing Script;
 
 }
 h3{
 
     font-size: 25px;
-    font-family: Rubik Glitch Pop&display;
+    font-family: Dancing Script;
 }
 h4{
 
     font-size: 25px;
-    font-family: Rubik Glitch Pop&display;
+    font-family:Dancing Script;
 }
 h5{
 
     font-size: 25px;
-    font-family: Rubik Glitch Pop&display;
+    font-family:Dancing Script;
 }
 }
 .img1{
