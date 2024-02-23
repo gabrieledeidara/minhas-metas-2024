@@ -1,5 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Honk&family=Rubik+Glitch+Pop&display=swap')
+ @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400..700&family=Pacifico&family=Rubik+Glitch+Pop&display=swap')
  :root {
     --cinza: rgb(185, 126, 126);
     --vermelha: rgba(236, 183, 132, 0.89);
@@ -14,7 +14,7 @@ background: linear-gradient(45deg, #b68383 0%,#d6ba6cab 100%);
 }
 h1 {
 font-size: 25px; 
-font-family: Honk&family ;
+font-family: Caveat ;
 
 }
 
