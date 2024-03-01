@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-h1{
+
+h1 {
     color: #5e8d8d;
 }
+
 :root {
     --cor-de-fundo: #000000;
     --azul: #40cec7b4;
@@ -10,69 +12,80 @@ h1{
     --botao-inativo: #3a375e80;
     --texto-fundo: #3a375e4d;
 }
+
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: Dancing Script ;
+    font-family: Dancing Script;
 }
-    .conteudo-principal{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- max-width: 1200px;
- width: 100%;
- margin: 0 auto;
-}
-    .titulo-principal{
-text-align: left;
-width: 1005;
-font-size: 32px;
-}
-    .titulo-principal span{
-color: var(--azul);
-}
-    .botao{
-        font-family: Dancing Script;
-        background-color: var(--botao-inativo);
-        color: var(--branco);
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        font-size: 18px;
-        align-items: center;
-        width: 100%;
 
-        border-bottom: 4px solid var(--botao-ativo);
-        border-left: 2px solid var(--botao-ativo);
-        border-right: 2px solid var(--botao-ativo);
-        border-top: none;
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
-    .botoes{
-display: block;
+
+.titulo-principal {
+    text-align: left;
+    width: 1005;
+    font-size: 32px;
 }
-    .ativo{
-background-color: var(--botao-ativo);
-border-bottom: 4px solid var(--azul);
+
+.titulo-principal span {
+    color: var(--azul);
 }
-@media screen and (min-width: 768px){
-    .botoes{
+
+.botao {
+    font-family: Dancing Script;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
+
+.botoes {
+    display: block;
+}
+
+.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--azul);
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
         display: flex;
     }
 }
-    .botao: :first-child{
-        border-raius: 40px 40px 0 0;
+
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+}
+
+@media screen and(min-width:768px) {
+    .botoes {
+        display: flex;
     }
-    @media screen and(min-width:768px){
-    .botoes{
-            display: flex;
-        }
-        
-    
-    .botao:first-child{
+
+
+    .botao:first-child {
         border-radius: 40px 0 0 0;
     }
-.botao:last-child{
-    border-radius: 0 40px 0 0;
-}
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
     }
+}
