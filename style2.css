@@ -4,9 +4,9 @@ h1{
 }
 :root {
     --cor-de-fundo: #000000;
-    --verde: #60a860;
+    --azul: #478992;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #539de2;
     --botao-inativo: #3a375e80;
     --texto-fundo: #3a375e4d;
 }
@@ -30,9 +30,49 @@ width: 1005;
 font-size: 32px;
 }
     .titulo-principal span{
-color: var(--verde);
+color: var(--azul);
 }
     .botao{
         font-family: Dancing Script;
-        
+        background-color: var(--botao-inativo);
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        font-size: 18px;
+        align-items: center;
+        width: 100%;
+
+        border-bottom: 4px solid var(--botao-ativo);
+        border-left: 2px solid var(--botao-ativo);
+        border-right: 2px solid var(--botao-ativo);
+        border-top: none;
 }
+    .botoes{
+display: block;
+}
+    .ativo{
+background-color: var(--botao-ativo);
+border-bottom: 4px solid var(--azul);
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display: flex;
+    }
+}
+    .botao: :first-child{
+        border-raius: 40px 40px 0 0;
+    }
+    @media screen and(min-width:768px){
+    .botoes{
+            display: flex;
+        }
+        
+    
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+.botao:last-child{
+    border-radius: 0 40px 0 0;
+}
+    }
