@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 h1{
     color: #5e8d8d;
 }
 :root {
     --cor-de-fundo: #000000;
-    --verde: #6FFF57;
+    --verde: #60a860;
     --branco: #FFFFFF;
     --botao-ativo: #3A375E;
     --botao-inativo: #3a375e80;
@@ -12,4 +13,26 @@ h1{
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
+    font-family: Dancing Script ;
+}
+    .conteudo-principal{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 1200px;
+ width: 100%;
+ margin: 0 auto;
+}
+    .titulo-principal{
+text-align: left;
+width: 1005;
+font-size: 32px;
+}
+    .titulo-principal span{
+color: var(--verde);
+}
+    .botao{
+        font-family: Dancing Script;
+        
 }
