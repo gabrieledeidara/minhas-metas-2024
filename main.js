@@ -16,7 +16,7 @@ const tempoObjetivo1 = new Date("2024-12-18T00:00:00");
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1); 
 
-function calculaTempo(tempoObjetivo1){
+function calculaTempo(tempoObjetivo){
     let tempoAtual = new Date ();
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math.floor(tempoFinal/1000);
