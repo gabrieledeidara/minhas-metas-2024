@@ -64,31 +64,6 @@ body {
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--azul);
 }
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-
-.botao:first-child {
-    border-radius: 40px 40px 0 0;
-}
-}
-@media screen and(min-width:768px) {
-    .botoes {
-        display: flex;
-    }
-
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
-}
 .abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
@@ -112,4 +87,25 @@ body {
     text-align: center;
     color: var(--azul);
     text-transform: uppercase;
+}
+
+
+@media screen and(min-width:768px) {
+    .botoes {
+        display: flex;
+    }
+
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
+}
+.abas-textos {
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
 }
