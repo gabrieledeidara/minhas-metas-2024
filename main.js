@@ -18,16 +18,10 @@ const tempoObjetivo3 = new Date("2027-04-04T00:00:00");
 const tempoObjetivo4 = new Date("2026-04-04T00:00:00");
 
 const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+
 for (let i = 0; i < contadores.length; i++){
     contadores[i].textContent = calculaTempo(tempos[i]);
 }
-
-contadores[i].textContent = calculaTempo(tempos[i]); 
-contadores[0].textContent = calculaTempo(tempoObjetivo1);
-contadores[1].textContent = calculaTempo(tempoObjetivo2);
-contadores[2].textContent = calculaTempo(tempoObjetivo3);
-contadores[3].textContent = calculaTempo(tempoObjetivo4);
-
 
 function calculaTempo(tempoObjetivo){
     let tempoAtual = new Date ();
