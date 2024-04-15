@@ -12,7 +12,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Dancing+Script", sans-serif;
+    font-family: "Dancing Script", sans-serif;
 }
 
 
@@ -38,7 +38,7 @@ body {
 
 
 .botao {
-    font-family: "Dancing+Script", sans-serif;
+    font-family: "Dancing Script", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
